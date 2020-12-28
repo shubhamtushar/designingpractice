@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Student</title>
+</head>
+<body>
+    <a href="student.html">Student</a>
+    <a href="teacher.html">Teacher</a>
+    <a href="index.html">Bus</a>
+    <hr />
+    <center><h1>Student</h1></center>
+    <hr />
+    <h1>
+        <!-- Form -->
+        
+        <h1>Add Student </h1>
+        <form>
+        <label> First Name:&nbsp;</label>
+        <input type="text" placeholder="First Name" required /><br />
+        <label>Last Name: &nbsp;</label>
+        <input type="text" placeholder="Last Name" required /><br/>
+        <!-- Radio -->
+
+        <p>Gender:&nbsp;
+        <label>Male</label>
+        <input type="radio" name="gender" />
+        <label>Female</label>
+        <input type="radio" name="gender" /><br />
+        </p>
+        <!--Option  -->
+
+        <label>Select: &nbsp;</label>
+        <select required>
+
+            <option value="" disabled selected>Select Your Class</option>
+            <option value="I">I</option>
+            <option value="II">II</option>
+            <option value="III">III</option>
+            <option value="IV">IV</option>
+            <option value="V">V</option>
+            <option value="VI">VI</option>
+            <option value="VII">VII</option>
+            <option value="VIII">VIII</option>
+            <option value="IX">IX</option>
+            <option value="X">X</option>
+            <option value="XI">XI</option>
+            <option value="XII">XII</option>
+        </select>
+        <br />
+       <pre>              <button type="submit">Add</button><br/></pre>
+    </form>
+    <!-- Table -->
+
+    <table border="1" cellpadding="10" cellspacing="0" width="70%" align="center">
+            <thead>
+                <th colspan="5">Teacher List </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Experience (in years)</th>
+                    <th>Subjects</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Shubham</td>
+                    <td>Male</td>
+                    <td>4</td>
+                    <td>
+                        <ul type="disc">
+                            <li>Math</li>
+                            <li>English</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Priyali</td>
+                    <td>Female</td>
+                    <td>5</td>
+                    <td>        
+                        <ul type="disc">
+                            <li>Hndi</li>
+                            <li>Science</li>
+                        </ul>    
+                    </td>
+                </tr>
+            </tbody>
+    </table>
+</body>
+</html>

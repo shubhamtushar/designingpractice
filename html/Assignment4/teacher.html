@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Teacher</title>
+</head>
+<body>
+    <a href="student.html">Student</a>
+    <a href="teacher.html">Teacher</a>
+    <a href="index.html">Bus</a>
+    <hr />
+    <center><h1>Teacher</h1></center>
+    <hr />
+    <h1>
+        <!-- Form -->
+        
+        <h1>Add Teacher </h1>
+        <form>
+        <label> First Name:&nbsp;</label>
+        <input type="text" placeholder="First Name" required /><br />
+        <label>Last Name: &nbsp;</label>
+        <input type="text" placeholder="Last Name" required /><br/>
+        <!-- Radio -->
+
+        <p>Gender:&nbsp;
+        <label>Male</label>
+        <input type="radio" name="gender" />
+        <label>Female</label>
+        <input type="radio" name="gender" /><br />
+        </p>
+        <!--Option  -->
+
+        <label>Experience: &nbsp;</label>
+        <select required>
+            <option value="5 Years">5 Years</option>
+            <option value="10 Years">10 Years</option>
+            <option value="13 Years">13 Years</option>
+        </select>
+        <br />
+
+        <!-- Checkbox -->
+
+        <p> 
+           Subjects: &nbsp;
+        <!-- <label>Hindi</label>
+        <input type="checkbox" name="subject" />
+        <label>English</label> 
+        <input type="checkbox" name="subject" />
+        <label>Maths</label>
+        <input type="checkbox" name="subject" />
+        <label>Science</label>
+        <input type="checkbox" name="subject" /> -->
+        <select multiple>
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Bhojpuri">Bhojpuri</option>
+        </select>
+        </p>
+
+       <pre>              <button type="submit">Add</button><br/></pre>
+    </form>
+    <!-- Table -->
+
+    <table border="1" cellpadding="10" cellspacing="0" width="70%" align="center">
+            <thead>
+                <th colspan="5">Teacher List </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Experience (in years)</th>
+                    <th>Subjects</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Shubham</td>
+                    <td>Male</td>
+                    <td>4</td>
+                    <td>
+                        <ul type="disc">
+                            <li>Math</li>
+                            <li>English</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Priyali</td>
+                    <td>Female</td>
+                    <td>5</td>
+                    <td>        
+                        <ul type="disc">
+                            <li>Hndi</li>
+                            <li>Science</li>
+                        </ul>    
+                    </td>
+                </tr>
+            </tbody>
+    </table>
+</body>
+</html>

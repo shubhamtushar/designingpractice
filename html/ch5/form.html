@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Demo</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <form>
+      <label>Your Name</label>
+      <input type="text" placeholder="Enter your name" required /> <br />
+      <label>Your Email</label>
+      <input type="email" placeholder="Enter your email" /> <br />
+      <input type="number" placeholder="Enter your mobile" /><br />
+      <textarea placeholder="Enter description" rows="10" cols="50"></textarea>
+      <br />
+      <input type="number" placeholder="Enter your age" /><br />
+
+      <label>Choose City</label>
+      <select required>
+        <option value="Indore">Indore</option>
+        <option>Bhopal</option>
+        <option>Varanasi</option>
+      </select>
+      <br />
+
+      <label>Male</label>
+      <input type="radio" name="gender" />
+      <label>Female</label>
+      <input type="radio" name="gender" />
+      <label>Others</label>
+      <input type="radio" name="gender" />
+
+      <br />
+      <h1>Skills</h1>
+      <label>HTML</label>
+      <input type="checkbox" name="skills" />
+      <label>CSS</label>
+      <input type="checkbox" name="skills" />
+      <label>JS</label>
+      <input type="checkbox" name="skills" />
+      <label>Bootstrap</label>
+      <input type="checkbox" name="skills" />
+
+      <br />
+      <h1>Choose Profile Photo</h1>
+      <input type="file" accept="image/*" />
+
+      <br />
+
+      <label>Choose your browser from the list:</label>
+      <input list="browsers" />
+
+      <datalist id="browsers">
+        <option value="Edge"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+  co
+</html>

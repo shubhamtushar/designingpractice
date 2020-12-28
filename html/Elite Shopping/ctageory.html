@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>category</title>
+  </head>
+  <body>
+    <!-- Page Links -->
+
+    <nav>
+      <h2>
+        <span>Elite Shopping</span> &nbsp;&nbsp;&nbsp;
+        <a href="index.html">Dashbard</a>&nbsp;
+        <a href="ctageory.html">Catagoery</a>&nbsp;
+        <a href="items.html">Items</a>&nbsp;
+      </h2>
+    </nav>
+    <br />
+
+    <h3>Total Categories :- 10</h3>
+    <!-- Add Category -->
+
+    <form>
+      <fieldset>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <label>Category Name</label> <br />
+                <input type="text" required />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label>Category Nick Names</label><br />
+                <input type="text" required />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Category Image<br />
+                <input type="file" accept="image/*" />
+              </td>
+            </tr>
+            <tr>
+              <td><button type="submit">ADD</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </fieldset>
+    </form>
+    <br />
+    <br />
+    <!-- Category Search Box -->
+    <div>
+      <label>Search Category</label><br />
+      <input type="text" required />
+      <button type="submit">ADD</button>
+    </div>
+    <br />
+
+    <!-- avilable ctegories -->
+
+    <table border="1" cellspacing="0" cellpadding="5">
+      <thead>
+        <th colspan="5">Avalable Categories</th>
+      </thead>
+      <tbody>
+        <tr>
+          <th>#S.No.</th>
+          <th>Name</th>
+          <th>Image</th>
+          <th colspan="2">Action</th>
+        </tr>
+        <tr>
+          <th>1</th>
+          <th>T-shirt</th>
+          <th>
+            <img
+              src="https://image.spreadshirtmedia.com/image-server/v1/mp/productTypes/815/views/1/appearances/366,width=300,height=300,backgroundColor=f2f2f2.jpg"
+              alt="T-shirt"
+              width="40"
+              height="40"
+            />
+          </th>
+          <th>
+            <button type="submit">ADD</button>
+          </th>
+          <th>
+            <button type="reset">DELETE</button>
+          </th>
+        </tr>
+        <tr>
+          <th>2</th>
+          <th>Jean</th>
+          <th>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Jeans.jpg"
+              alt="Jean"
+              width="40"
+              height="40"
+            />
+          </th>
+          <th>
+            <button type="submit">ADD</button>
+          </th>
+          <th>
+            <button type="reset">DELETE</button>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

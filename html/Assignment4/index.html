@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bus</title>
+  </head>
+  <body>
+    <nav>
+      <a href="student.html">Student</a>
+      <a href="teacher.html">Teacher</a>
+      <a href="index.html">Bus</a>
+    </nav>
+    <hr />
+    <center><h1>Bus</h1></center>
+    <hr />
+
+    <!-- Add Bus Form -->
+    <form>
+      <fieldset>
+        <legend>Add Bus</legend>
+        <div>
+          <label>Bus No.: &nbsp;</label>
+          <input type="number" placeholder="Enter Bus No." required /><br />
+        </div>
+        <br />
+
+        <div>
+          <label>Reg No.:&nbsp;&nbsp; </label>
+          <input type="number" placeholder="Registration No." required /><br />
+        </div>
+
+        <!-- Bus Type Input-->
+        <p>
+          Bus Type: &nbsp;
+          <label>A</label>
+          <input type="radio" name="bustype" />
+          <label>B</label>
+          <input type="radio" name="bustype" />
+        </p>
+
+        <!-- Bus Route Input -->
+        <p>
+          Bus Route : &nbsp;
+          <label>Housing</label>
+          <input type="checkbox" name="bus route" />
+          <label>Jeevan Jyoti</label>
+          <input type="checkbox" name="bus route" />
+          <label>Pithampur</label>
+          <input type="checkbox" name="bus route" />
+          <label>Sagore-Kuti</label>
+          <input type="checkbox" name="bus route" />
+        </p>
+
+        <!-- Bus Image Upload -->
+        <p>
+          Bus Image: &nbsp;
+          <input type="file" accept="image/*" />
+        </p>
+        <pre>           <button type="submit">Add</button></pre>
+      </fieldset>
+    </form>
+    <br />
+    <br />
+    <!-- Bus List -->
+    <table
+      border="2"
+      cellpadding="2"
+      cellspacing="0"
+      align="center"
+      width="70%"
+    >
+      <thead>
+        <th colspan="6">Bus List</th>
+      </thead>
+      <tbody>
+        <tr align="center">
+          <th>#</th>
+          <th>Bus No</th>
+          <th>Reg</th>
+          <th>Type</th>
+          <th>Route</th>
+          <th>Bus Image</th>
+        </tr>
+        <tr align="center">
+          <td>1</td>
+          <td>28</td>
+          <td>123456</td>
+          <td>4</td>
+          <td>
+            <ul type="disc">
+              <li>Housing</li>
+              <li>Sagore-Kuti</li>
+            </ul>
+          </td>
+          <td>
+            <img
+              src="https://stnonline.com/wp-content/uploads/2019/06/Blue-bird.jpg"
+              width="50"
+              height="50"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

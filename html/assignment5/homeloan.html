@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Loan</title>
+  </head>
+  <body>
+    <!-- Home Loan Form -->
+    <a href="index.html">Go</a>
+    <form>
+      <fieldset>
+        <legend>Form</legend>
+        <div>
+          <hr />
+          <h1>Apply For Home Loan</h1>
+          <hr />
+          <label for="fullname"
+            >Full Name*: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+          >
+          <input
+            type="text>"
+            placeholder="Full Name"
+            required
+            id="fullname"
+          />&nbsp;&nbsp;<input type="text>" placeholder="Last Name" />
+        </div>
+        <br />
+        <div>
+          <label
+            >E-mail*:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+          >
+          <input type="text" placeholder="ex: myname@example.com" required />
+        </div>
+        <br />
+        <div>
+          <label>Phone Number*:&nbsp;&nbsp;</label>
+          <input type="number" required />&nbsp;-&nbsp;<input
+            type="number"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <!-- Address -->
+          <label
+            >Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+          >
+          <input type="text number" placeholder="Street Address" />
+          <br />
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text number" placeholder="Street Address" />
+          <br />
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text" placeholder="City" />&nbsp;&nbsp;
+          <input type="text" placeholder="State/Province" />
+          <br />
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text" placeholder="Postal/Zip Code" />&nbsp;&nbsp;
+
+          <!-- Country Selection -->
+          <select required>
+            <option value="#" selected disabled>Please Select</option>
+            <option value="India">India</option>
+            <option value="Canada">Canada</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+          </select>
+        </div>
+
+        <div>
+          <label>Quantity</label>
+          <input type="range" min="0" max="5" />
+          <input type="color" min="0" max="10" />
+        </div>
+
+        <div>
+          Do you own or rent your home?* &nbsp;&nbsp;&nbsp;&nbsp;
+          <label>Own</label>
+          <input type="radio" name="home" required />&nbsp;&nbsp;&nbsp;&nbsp;
+          <label>Rent</label>&nbsp;&nbsp;
+          <input type="radio" name="home" required />
+        </div>
+        <div>
+          Do you want to sell your home before buying a new one?*
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <label>Own</label>
+          <input type="radio" name="rent" required />&nbsp;&nbsp;&nbsp;&nbsp;
+          <label>Rent</label>
+          <input type="radio" name="rent" required />
+        </div>
+        <button>Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
