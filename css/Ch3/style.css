@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap&family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  /* background-image: url(./../3_Idiots.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  width: 100vw; */
+
+  background: #e6dada; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #274046,
+    #e6dada
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #274046,
+    #e6dada
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  text-align: center;
+  background-color: blueviolet;
+}
+
+p {
+  text-align: justify;
+}
+
+span {
+  text-align: center;
+  background-color: brown;
+}
+
+.btn {
+  border: none;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+
+  transition: all 500ms;
+}
+.btn:hover {
+  background-color: white;
+  border: 2px solid #ffc107;
+  color: black;
+}
+
+.btn-cancel {
+  background: li white;
+  color: black;
+  border: 2px solid #ffc107;
+}
+.btn-success {
+  background-color: #ffc107;
+  color: white;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}

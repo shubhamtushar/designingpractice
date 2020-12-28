@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap&family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+.fa-check-circle {
+  color: green;
+}
+.fa-times {
+  color: red;
+}
+.lists th,
+td {
+  border: rgb(199, 180, 180) 1px solid;
+  padding: 10px;
+}
+.lists {
+  border-collapse: collapse;
+  margin: 20px;
+}
+thead > td {
+  text-align: left;
+}
+.head {
+  text-align: left;
+}
+tbody tr td:nth-child(1) {
+  text-align: left;
+}
+tbody tr td:nth-child(2) {
+  background-color: rgb(224, 224, 224);
+}
+tbody {
+  text-align: center;
+}
+.lists th {
+  background-color: rgb(224, 224, 224);
+}
+.features {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card {
+  text-align: center;
+  /* float: left; */
+  margin: 10px;
+  /* margin-bottom: ; */
+  /* overflow: auto; */
+  flex-basis: 20%;
+}
+h1 {
+  margin-bottom: 15px;
+}
+.details-btn {
+  border: none;
+  background: white;
+  color: teal;
+  font-size: 19px;
+  outline: none;
+  font-weight: bolder;
+  cursor: pointer;
+  /* margin-bottom: 140px; */
+}
+.fab {
+  color: rgb(44, 62, 163);
+  background-color: rgb(247, 247, 247);
+  padding: 20px;
+  margin-bottom: 14px;
+  margin-top: 14px;
+  font-size: 48px;
+}
+.carselona {
+  margin-top: 0px;
+}
+.btn {
+  padding: 10px 23px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: teal;
+  color: white;
+
+  border-radius: 5px;
+}
+.carselona {
+  padding: 10px;
+  width: 100%;
+}
+h2 {
+  margin-bottom: 15px;
+}
+.last {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.image img {
+  width: 60%;
+  border-radius: 41px 56px 56px 41px;
+  border: 7px solid teal;
+}

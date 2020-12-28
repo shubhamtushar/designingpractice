@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lauda Animation</title>
+
+    <style>
+      @keyframes rotate {
+        0% {
+          transform: translateX(0px);
+        }
+        20% {
+          transform: translateX(100px) rotate(10deg);
+          border-radius: 10px;
+          background: tomato;
+        }
+        40% {
+          transform: translate(100px, 100px) rotate(30deg);
+          background: royalblue;
+          border-radius: 20px;
+        }
+        70% {
+          transform: translateY(100px) rotate(45deg);
+          background: green;
+          border-radius: 50px;
+        }
+        100% {
+          transform: translate(0px, 0px);
+        }
+      }
+
+      .circle {
+        width: 100px;
+        height: 100px;
+        background: black;
+
+        animation: rotate 2s ease infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="circle"></div>
+  </body>
+</html>

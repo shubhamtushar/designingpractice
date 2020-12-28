@@ -1,0 +1,95 @@
+body {
+  background: black;
+}
+
+.face {
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+  background-color: royalblue;
+  /* position: relative; */
+}
+@keyframes flash {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: grey;
+  }
+}
+@keyframes mouth {
+  from {
+    height: 10px;
+  }
+  to {
+    height: 30px;
+  }
+}
+@keyframes chest {
+  from {
+    border-radius: unset;
+  }
+  to {
+    border-radius: 10%;
+  }
+}
+@keyframes legs {
+  from {
+    border-radius: unset;
+  }
+  to {
+    border-radius: 20px;
+    transform: translateX(5px);
+    /* position: relative;
+    left: 15px;
+    transition: 500ms; */
+  }
+}
+.eyes {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  float: left;
+  margin-right: 45px;
+  transform: translateX(50px) translateY(60px);
+  animation: flash 1s ease-out infinite;
+  transition: all 500ms;
+}
+.teeth {
+  width: 150px;
+  height: 10px;
+  background-color: white;
+  transform: translateX(44px) translateY(10rem);
+  animation: mouth 1s ease-out infinite;
+
+  transition: 500ms;
+}
+.chest {
+  width: 200px;
+  height: 200px;
+  background-color: royalblue;
+  transform: translateX(15px) translateY(15px);
+  animation: chest 1s ease-out infinite;
+}
+.legs1 {
+  width: 20px;
+  height: 150px;
+  background-color: royalblue;
+  position: relative;
+  left: 190px;
+  /* transform: translateX(45px) translateY(20px); */
+  float: left;
+  animation: legs 1s ease-out infinite;
+  transition: 500ms;
+}
+.legs2 {
+  width: 20px;
+  height: 150px;
+  background-color: royalblue;
+  /* transform: translateX(150px) translateY(20px); */
+  float: left;
+
+  transition: 500ms;
+  animation: legs 1s ease-out infinite;
+}

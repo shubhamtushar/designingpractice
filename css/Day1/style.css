@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap");
+
+h1 {
+  font-weight: 1000;
+  font-size: 1rem;
+}
+
+p {
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+div {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+span {
+  background-color: blue;
+}

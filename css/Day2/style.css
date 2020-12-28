@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap&family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box-model {
+  background-color: tomato;
+  width: 100px;
+  height: 100px;
+
+  padding: 10px;
+
+  border: 10px solid black;
+
+  margin: 50px;
+}
+
+.box-model2 {
+  background-color: pink;
+  height: 100px;
+  width: 200px;
+
+  /* padding-left: 8px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 2px; */
+  padding: 5px 10px 15px 20px;
+
+  margin-left: 0px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.circle {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  margin: 64px;
+  border-radius: 16rem;
+}

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://3.bp.blogspot.com/-B-6lljkcjRA/U-eWoxQf-lI/AAAAAAAADNw/qU8muyfD36Y/s1600/Logo+Tom_and_Jerry.png);
+  background-repeat: no-repeat;
+}
+.login {
+  bottom: none;
+  margin: 20px;
+  padding: 10px 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 500ms;
+}
+.btn1:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 30px;
+}
+.btn2 {
+  border: none;
+  padding-bottom: 14px;
+  background-color: white;
+}
+.btn2:hover {
+  background-color: #673ab7;
+  /* transition: 500ms; */
+  border-radius: 50px;
+  background: linear-gradient(145deg, #c8cdd0, #eef4f7);
+  box-shadow: 20px 20px 60px #bdc2c4, -20px -20px 60px #ffffff;
+}
+
+.btn {
+  border: none;
+  padding: 10px 50px;
+  margin-left: 50px;
+  background-color: tomato;
+}
+.shape2 {
+  border-radius: 20px;
+}
+
+.shape3 {
+  border-top-right-radius: 20px;
+}
+
+.shape4 {
+  border-radius: 10px 0px 10px 0px;
+}
+
+.shape5 {
+  border-radius: 0px 10px 0px 10px;
+}
+.shape5:hover {
+  border-radius: 0px 10px 0px 30px;
+}
+
+.shape6 {
+  padding: 10px;
+  border-radius: 30px;
+  transition: all 500ms;
+}
+
+.shape6:hover {
+  padding: 5px 20px;
+  margin-right: 0;
+}
+.c {
+  border: none;
+  background-color: tomato;
+  padding: 10px;
+  /* margin-left: 30px; */
+  border-radius: 100px;
+  transition: 500ms;
+  outline: none;
+}
+.c:hover {
+  border-radius: 100px;
+  padding: 30px;
+}

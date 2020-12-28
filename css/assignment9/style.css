@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.tool-cards {
+  display: flex;
+  justify-content: space-around;
+  /* width: 30%; */
+  /* height: 300px; */
+  /* position: relative; */
+}
+.mdb-img {
+  height: 150px;
+}
+.mdb-tools {
+  margin: 10px;
+  flex-basis: 30%;
+}
+.mdb-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.text h1 {
+  text-align: center;
+  margin: 10px;
+}
+.text span {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.text nav {
+  text-align: center;
+  margin-top: 10px;
+}
+.text nav a {
+  text-decoration: none;
+}
+.mdb {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-text {
+  text-align: center;
+  margin-bottom: 17px;
+}
+.icon-text .fa {
+  background-color: rgb(71, 69, 69);
+  color: white;
+  padding: 3px 7px;
+}
+.icon-text a {
+  text-decoration: none;
+  background-color: #e23137;
+  color: white;
+  padding: 6px 19px;
+}
+
+.mdb {
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon-text {
+  margin-inline-end: 100px;
+}
+.foot {
+  display: flex;
+
+  justify-content: space-between;
+  /* align-items: flex-end; */
+}
+.section1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 39px;
+}
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 550;
+}
+.links li a {
+  text-decoration: none;
+  color: black;
+}
+.links li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+.company {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+.company-section {
+  border-bottom: 2px solid gray;
+  margin-bottom: -20px;
+}
+/* =================================================== */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.chip {
+  padding: 3px 8px;
+  margin: 13px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.primary {
+  border: 1px solid royalblue;
+}
+.secondary {
+  border: 1px solid violet;
+}
+.success {
+  border: 1px solid green;
+}
+.danger {
+  border: 1px solid red;
+}
+.warning {
+  border: 1px solid yellow;
+}
+.info {
+  border: 1px solid teal;
+}
+.dark {
+  border: 1px solid brown;
+}
